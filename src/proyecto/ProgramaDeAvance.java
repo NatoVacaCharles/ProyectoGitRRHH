@@ -28,6 +28,9 @@ public class ProgramaDeAvance {
         horasV=diasV*24;
         
         System.out.println ("Usted ha vivido aprox. "+mesesV+" meses, "+semanasV+" semanas, "+diasV+" dias y "+horasV+" horas.");
+            int numeroDeLaSuerte = (int) (Math.random() * 30) + 1;
+       System.out.println("Su número de la suerte es: " + numeroDeLaSuerte);
+
     }
     
 }
