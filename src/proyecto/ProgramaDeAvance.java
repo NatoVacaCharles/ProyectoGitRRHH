@@ -8,7 +8,7 @@ public class ProgramaDeAvance {
         int diaA,mesA,añoA,diaN,mesN,añoN,mesesV,diasV,horasV;
         double semanasV;
         System.out.println("Ingrese su fecha de nacimiento: ");
-        System.out.print("Día: ");
+        System.out.println("Dia: ");
         diaN=date.nextInt();
         System.out.print ("Mes: "); 
         mesN=date.nextInt();
